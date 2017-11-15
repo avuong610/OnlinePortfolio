@@ -119,7 +119,7 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 20px,
+  small: 30px,
   medium: 30px,
 );
 $grid-column-align-edge: true;
@@ -138,20 +138,20 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 55),
-    'h2': ('font-size': 25),
-    'h3': ('font-size': 22),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
-    'h6': ('font-size': 16),
+    'h1': ('font-size': 30),
+    'h2': ('font-size': 20),
+    'h3': ('font-size': 18),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 18),
+    'h6': ('font-size': 14),
   ),
   medium: (
-    'h1': ('font-size': 45),
-    'h2': ('font-size': 25),
-    'h3': ('font-size': 20),
-    'h4': ('font-size': 20),
-    'h5': ('font-size': 20),
-    'h6': ('font-size': 16),
+    'h1': ('font-size': 40),
+    'h2': ('font-size': 23),
+    'h3': ('font-size': 19),
+    'h4': ('font-size': 19),
+    'h5': ('font-size': 19),
+    'h6': ('font-size': 15),
   ),
   large: (
     'h1': ('font-size': 45),
