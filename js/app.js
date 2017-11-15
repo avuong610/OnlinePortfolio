@@ -47,11 +47,13 @@ $(document).ready(function(){
 	    }
 	});
 
-	$('.masonry-grid').masonry({
-	  	columnWidth: '.grid-sizer',
-		itemSelector: '.grid-item',
-		percentPosition: true
-	});	  	
+	if ( $('.masonry-grid').length != 0 ) {
+		$('.masonry-grid').masonry({
+		  	columnWidth: '.grid-sizer',
+			itemSelector: '.grid-item',
+			percentPosition: true
+		});	  
+	}	
 
 });
 
