@@ -218,6 +218,18 @@ header.header--front-page {
 	}
 }
 
+header.header--about {
+	.site-navigation .about {
+		color: $black;
+	}
+}
+
+header.header--projects {
+	.site-navigation .projects {
+		color: $black;
+	}
+}
+
 footer {
 	background-color: $white;
 	border-top: 1px solid $medium-gray;
@@ -322,6 +334,7 @@ footer {
 }
 
 #about {
+
 	.hero-banner {
 		position: fixed;
 		z-index: -1;
